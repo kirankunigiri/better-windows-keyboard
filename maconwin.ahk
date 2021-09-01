@@ -33,4 +33,6 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Option Key (remapped Win to Alt key)
 <!Left::Send ^{Left}		; Opt+Left		→ Prev word
 <!Right::Send ^{Right}		; Opt+Right		→ Next word
++<!Left::Send +^{Left}		; Opt+Left		→ Highlight Prev word
++<!Right::Send +^{Right}		; Opt+Right		→ Highlight Next word
 <!Tab:: Send ^{Tab}			; Opt+Tab			→ Next tab
